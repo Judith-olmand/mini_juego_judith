@@ -1,5 +1,12 @@
 [gd_scene format=3 uid="uid://bc6mwgrb8fbr1"]
 
+[ext_resource type="Texture2D" uid="uid://cgax7mlxqnaun" path="res://assets/tiles/CastleExample_4_1.png" id="1_6j4jg"]
+
 [node name="Nivel1" type="Node2D" unique_id=172249256]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=719443466]
+position = Vector2(386, 1173)
+
+[node name="CastleExample41" type="Sprite2D" parent="." unique_id=1600226205]
+position = Vector2(931, 383)
+texture = ExtResource("1_6j4jg")
