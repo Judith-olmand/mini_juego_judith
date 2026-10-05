@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bc6mwgrb8fbr1"]
 
 [ext_resource type="Texture2D" uid="uid://cgax7mlxqnaun" path="res://assets/tiles/CastleExample_4_1.png" id="1_6j4jg"]
+[ext_resource type="Script" uid="uid://cvphfgnfq4hkb" path="res://scripts/sprite_2d.gd" id="2_gjtvw"]
 
 [node name="Nivel1" type="Node2D" unique_id=172249256]
 
@@ -10,3 +11,7 @@ position = Vector2(386, 1173)
 [node name="CastleExample41" type="Sprite2D" parent="." unique_id=1600226205]
 position = Vector2(931, 383)
 texture = ExtResource("1_6j4jg")
+
+[node name="Sprite2D" type="Sprite2D" parent="CastleExample41" unique_id=268285601]
+script = ExtResource("2_gjtvw")
+speed = null
